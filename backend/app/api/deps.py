@@ -4,6 +4,7 @@ from typing import Annotated
 import jwt
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
+from google import genai
 from jwt.exceptions import InvalidTokenError
 from pydantic import ValidationError
 from sqlmodel import Session
@@ -55,3 +56,21 @@ def get_current_active_superuser(current_user: CurrentUser) -> User:
             status_code=403, detail="The user doesn't have enough privileges"
         )
     return current_user
+
+
+def get_llm_response(prompt: str, model: str = "gemini-2.0-flash") -> str:
+    """
+    Get LLM response.
+    """
+    if not prompt:
+        raise HTTPException(status_code=400, detail="Text query parameter is required")
+    try:
+        client = genai.Client(api_key=<API_KEY>)
+        response = client.models.generate_content(
+            model=model,
+            contents=prompt,
+        )
+        result = response.text
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return result
