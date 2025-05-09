@@ -13,7 +13,7 @@ from app.api.deps import (
 from app.core.config import settings
 from app.core.security import get_password_hash, verify_password
 from app.models import (
-    Item,
+    # Item,
     Message,
     UpdatePassword,
     User,
@@ -31,7 +31,7 @@ router = APIRouter(prefix="/users", tags=["users"])
 
 @router.get(
     "/",
-    dependencies=[Depends(get_current_active_superuser)],
+    # dependencies=[Depends(get_current_active_superuser)],
     response_model=UsersPublic,
 )
 def read_users(session: SessionDep, skip: int = 0, limit: int = 100) -> Any:
@@ -49,7 +49,9 @@ def read_users(session: SessionDep, skip: int = 0, limit: int = 100) -> Any:
 
 
 @router.post(
-    "/", dependencies=[Depends(get_current_active_superuser)], response_model=UserPublic
+    "/", 
+    # dependencies=[Depends(get_current_active_superuser)], 
+    response_model=UserPublic
 )
 def create_user(*, session: SessionDep, user_in: UserCreate) -> Any:
     """
@@ -205,22 +207,22 @@ def update_user(
     return db_user
 
 
-@router.delete("/{user_id}", dependencies=[Depends(get_current_active_superuser)])
-def delete_user(
-    session: SessionDep, current_user: CurrentUser, user_id: uuid.UUID
-) -> Message:
-    """
-    Delete a user.
-    """
-    user = session.get(User, user_id)
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    if user == current_user:
-        raise HTTPException(
-            status_code=403, detail="Super users are not allowed to delete themselves"
-        )
-    statement = delete(Item).where(col(Item.owner_id) == user_id)
-    session.exec(statement)  # type: ignore
-    session.delete(user)
-    session.commit()
-    return Message(message="User deleted successfully")
+# @router.delete("/{user_id}", dependencies=[Depends(get_current_active_superuser)])
+# def delete_user(
+#     session: SessionDep, current_user: CurrentUser, user_id: uuid.UUID
+# ) -> Message:
+#     """
+#     Delete a user.
+#     """
+#     user = session.get(User, user_id)
+#     if not user:
+#         raise HTTPException(status_code=404, detail="User not found")
+#     if user == current_user:
+#         raise HTTPException(
+#             status_code=403, detail="Super users are not allowed to delete themselves"
+#         )
+#     statement = delete(Item).where(col(Item.owner_id) == user_id)
+#     session.exec(statement)  # type: ignore
+#     session.delete(user)
+#     session.commit()
+#     return Message(message="User deleted successfully")
