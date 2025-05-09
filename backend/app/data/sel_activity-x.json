@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Emotion Mirror",
+    "description": "Students draw or act out emotions based on a situation card, helping them recognize and name different feelings.",
+    "detailed_activity": "<div style=\"background-color:#FFF3E0; border: 2px solid #F57C00; border-radius: 12px; padding: 20px; max-width: 600px; font-family: 'Comic Sans MS', cursive; color: #E65100;\"><h2 style=\"color:#F57C00; text-align:center;\">Emotion Mirror</h2><p>Pick a card with a situation (e.g., 'Your friend doesn’t invite you to their party'). Act out the emotion you would feel, or draw your 'feeling face' on paper. Then share with the group what emotion it was and why you felt that way.</p></div>"
+  },
+  {
+    "name": "My Strength Tree",
+    "description": "Students reflect on and write their personal strengths on the branches of a tree diagram.",
+    "detailed_activity": "<div style=\"background-color:#E8F5E9; border: 2px solid #388E3C; border-radius: 12px; padding: 20px; max-width: 600px; font-family: 'Comic Sans MS', cursive; color: #1B5E20;\"><h2 style=\"color:#388E3C; text-align:center;\">My Strength Tree</h2><p>Draw a tree. On each branch, write one personal strength (e.g., 'I’m a good listener', 'I like helping others'). Decorate the tree and share one strength with a friend!</p></div>"
+  },
+  {
+    "name": "Feelings Charades",
+    "description": "A fun game where students act out feelings without words while others guess.",
+    "detailed_activity": "<div style=\"background-color:#FCE4EC; border: 2px solid #D81B60; border-radius: 12px; padding: 20px; max-width: 600px; font-family: 'Comic Sans MS', cursive; color: #880E4F;\"><h2 style=\"color:#D81B60; text-align:center;\">Feelings Charades</h2><p>One student picks an emotion card and acts it out without using words. Others guess the emotion. This helps students recognize emotions by body language and facial expressions.</p></div>"
+  },
+  {
+    "name": "My Mood Journal",
+    "description": "Students track and reflect on their emotions throughout the week in a journal.",
+    "detailed_activity": "<div style=\"background-color:#E3F2FD; border: 2px solid #1976D2; border-radius: 12px; padding: 20px; max-width: 600px; font-family: 'Comic Sans MS', cursive; color: #0D47A1;\"><h2 style=\"color:#1976D2; text-align:center;\">My Mood Journal</h2><p>Each day, write how you felt and what made you feel that way. Use smiley faces or colors to show your mood. At the end of the week, reflect: What made you feel good? What made you upset?</p></div>"
+  },
+  {
+    "name": "Who Am I? Collage",
+    "description": "A creative collage activity where students represent their identity through pictures, words, and drawings.",
+    "detailed_activity": "<div style=\"background-color:#F3E5F5; border: 2px solid #8E24AA; border-radius: 12px; padding: 20px; max-width: 600px; font-family: 'Comic Sans MS', cursive; color: #4A148C;\"><h2 style=\"color:#8E24AA; text-align:center;\">Who Am I? Collage</h2><p>Use magazines, stickers, and drawings to create a collage about YOU. Include your hobbies, favorite colors, dreams, and things you care about. Share your collage with a partner and explain why you chose each item.</p></div>"
+  }
+]

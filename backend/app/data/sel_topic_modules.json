@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Lets Warm up and Get Started",
+    "description": "This module is designed to help you get started with the course. It includes an introduction to the course content, an overview of the learning objectives, and some tips for success. You will also have the opportunity to meet your instructor and fellow students.",
+    "link": "/warmup"
+  },
+  {
+    "name": "Lets Practice Mindfulness",
+    "description": "This module focuses on the practice of mindfulness. You will learn about the benefits of mindfulness, different mindfulness techniques, and how to incorporate mindfulness into your daily life. The module includes guided meditations, breathing exercises, and tips for staying present in the moment.",
+    "link": "/mindfulness"
+  },
+  {
+    "name": "Lets Build a Story",
+    "description": " Lets work on building a story which will help us learn more on the topic. This module includes a variety of activities to help you build a story. You will work in groups to create a story, and then present it to the class. The module includes tips for storytelling, character development, and plot structure.",
+    "link": "/story"
+  },
+  {
+    "name": "In-person activities",
+    "description": "Lets play and perform activities while will help us learn more on the topic",
+    "link": "/activity"
+  },
+  {
+    "name": "Its Quiz Time",
+    "description": "This module includes a variety of quizzes to to make your session fun and help the students reviso their concepts.",
+    "link": "/quiz"
+  }
+]

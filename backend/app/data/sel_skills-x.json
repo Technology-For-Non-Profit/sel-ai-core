@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Emotional Resilience",
+    "description": "The ability to bounce back from setbacks and cope with stress in a healthy way. Emotional resilience helps individuals face challenges with confidence and maintain a positive outlook.",
+    "examples": [
+      "Taking deep breaths and staying calm during a tough situation.",
+      "Seeking help from a trusted adult when feeling overwhelmed.",
+      "Learning from mistakes instead of giving up."
+    ]
+  },
+  {
+    "name": "Self-Respect",
+    "description": "Valuing yourself and believing that you deserve kindness and fairness. Self-respect forms the foundation for healthy relationships and responsible behavior.",
+    "examples": [
+      "Standing up for yourself politely when treated unfairly.",
+      "Taking care of your body and mind.",
+      "Saying no to things that make you uncomfortable."
+    ]
+  },
+  {
+    "name": "Self-Awareness",
+    "description": "Understanding your own emotions, thoughts, and values and how they influence your actions. Self-awareness helps individuals make better decisions and develop a strong sense of identity.",
+    "examples": [
+      "Recognizing when you are feeling angry or sad.",
+      "Reflecting on why you reacted a certain way in a situation.",
+      "Knowing what makes you happy or upset."
+    ]
+  },
+  {
+    "name": "Growth Mindset",
+    "description": "Believing that your abilities and intelligence can grow with effort and practice. A growth mindset encourages perseverance and a love of learning.",
+    "examples": [
+      "Trying again after failing a math test.",
+      "Saying 'I can’t do it yet' instead of 'I can’t do it'.",
+      "Being excited to learn new things, even if they’re hard."
+    ]
+  },
+  {
+    "name": "Taking Initiative",
+    "description": "Taking action without being told and being proactive in solving problems. It shows leadership and responsibility.",
+    "examples": [
+      "Starting your homework without being reminded.",
+      "Helping a classmate clean up without being asked.",
+      "Coming up with a plan to improve your reading skills."
+    ]
+  },
+  {
+    "name": "Relationship Building",
+    "description": "Creating and maintaining healthy and supportive connections with others. It involves communication, trust, and cooperation.",
+    "examples": [
+      "Making a new student feel welcome.",
+      "Working well in a group project.",
+      "Apologizing when you've hurt someone’s feelings."
+    ]
+  },
+  {
+    "name": "Decision Making",
+    "description": "Making thoughtful and responsible choices after considering possible consequences. It helps in achieving goals and solving problems effectively.",
+    "examples": [
+      "Thinking before speaking when angry.",
+      "Choosing to study for a test instead of watching TV.",
+      "Asking for advice before making a big decision."
+    ]
+  },
+  {
+    "name": "Critical Thinking",
+    "description": "Analyzing information logically, questioning assumptions, and making reasoned judgments. Critical thinking encourages curiosity and problem-solving.",
+    "examples": [
+      "Asking why something happens instead of just accepting it.",
+      "Comparing different points of view before forming an opinion.",
+      "Looking for evidence before believing a rumor."
+    ]
+  },
+  {
+    "name": "Empathy",
+    "description": "The ability to understand and share the feelings of others. Empathy strengthens relationships and promotes kindness and compassion.",
+    "examples": [
+      "Comforting a friend who is feeling sad.",
+      "Putting yourself in someone else’s shoes during a disagreement.",
+      "Listening carefully when someone is sharing a problem."
+    ]
+  }
+]

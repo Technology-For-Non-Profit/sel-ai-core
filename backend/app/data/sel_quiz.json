@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the following best shows critical thinking?",
+    "options": [
+      "Memorizing facts for a test",
+      "Accepting everything your friend says",
+      "Asking questions to understand better",
+      "Repeating what the teacher said"
+    ],
+    "answer": 2,
+    "explanation": "Critical thinking involves asking questions and analyzing information rather than just accepting it at face value."
+  },
+  {
+    "question": "You read an article online. What should you do before believing it?",
+    "options": [
+      "Share it with friends immediately",
+      "Check if it's trending",
+      "See who wrote it and if it's from a reliable source",
+      "Believe it if it's exciting"
+    ],
+    "answer": 2,
+    "explanation": "A key part of critical thinking is checking the credibility of sources before trusting information."
+  },
+  {
+    "question": "Your classmate gives a different answer than you in a group project. What should you do?",
+    "options": [
+      "Ignore their answer",
+      "Argue until they agree with you",
+      "Ask them how they got their answer and compare ideas",
+      "Tell the teacher immediately"
+    ],
+    "answer": 2,
+    "explanation": "Comparing ideas and discussing differences is an important part of developing critical thinking."
+  },
+  {
+    "question": "What’s an example of using evidence to support your opinion?",
+    "options": [
+      "I just know I’m right.",
+      "Because I feel like it.",
+      "A scientist found this in an experiment.",
+      "Everyone says it’s true."
+    ],
+    "answer": 2,
+    "explanation": "Using scientific findings or evidence to support your ideas shows strong critical thinking."
+  },
+  {
+    "question": "Why is it important to consider multiple solutions to a problem?",
+    "options": [
+      "So you can confuse others",
+      "Because one solution is always wrong",
+      "It helps you choose the best and most effective way",
+      "To delay making a decision"
+    ],
+    "answer": 2,
+    "explanation": "Exploring different solutions allows for better decision-making and helps you find the most effective approach."
+  }
+]
